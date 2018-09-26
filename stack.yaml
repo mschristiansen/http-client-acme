@@ -1,0 +1,6 @@
+resolver: lts-12.10
+
+# nix settings are only used when nix is enabled globally in
+# `.stack/config.yaml`
+nix:
+  packages: [zlib]
